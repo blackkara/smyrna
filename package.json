@@ -1,0 +1,33 @@
+{
+  "name": "smyrna",
+  "version": "1.0.0-alpha",
+  "description": "gps, tracking, geofencing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackkara/smyrna.git"
+  },
+  "keywords": [
+    "gps",
+    "tracking"
+  ],
+  "author": "Mustafa Kara (mustafa@mustafa.be)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackkara/smyrna/issues"
+  },
+  "homepage": "https://github.com/blackkara/smyrna",
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "nanotimer": "^0.3.10",
+    "redis": "^0.12.1",
+    "smyrna-sentence": "^1.0.1"
+  }
+}
